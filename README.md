@@ -1,1 +1,6 @@
-# HIGHPEAK
+d={"Fitbit Plus": 7980,"IPods":22349,"MI Band": 999,"Cult Pass": 2799,"Macbook Pro": 229900,"Digital Camera": 11101,"Alexa": 9999,"Sandwich Toaster": 2195,"Microwave Oven": 9800,"Scale": 4999}
+l=list(d.items())
+n=len(l)
+l.sort()
+for  i in range(n-1,n-5,-1):
+    print(l[i])
